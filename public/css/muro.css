@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(236,240,245);
+    
+}
+
+.carousel img {
+    height: 300px;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.carousel-control-prev {
+    margin-top: 95vh;
+}
+  
+.carousel-control-next {
+    margin-top: 95vh;
+}
+
+.owl-carousel .owl-item {
+    display: flex;
+    justify-content: center;
+}
+  
+.owl-carousel .owl-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+#videoFondo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}

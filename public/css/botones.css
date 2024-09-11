@@ -1,0 +1,15 @@
+.button-verde-invertec {
+    background-color: rgba(24, 104, 53, 0.9) !important;
+  }
+
+.button-verde-invertec:hover {
+    background-color: rgb(24,104,53) !important; 
+}
+
+.button-rojo-invertec {
+    background-color: rgba(189, 28, 36, 0.9) !important;
+  }
+
+.button-rojo-invertec:hover {
+    background-color: rgb(189, 28, 36) !important; 
+}

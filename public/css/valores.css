@@ -1,0 +1,17 @@
+/* Imagen header */
+.card-valores{
+    background-image: url("coin.png"); 
+    background-repeat: no-repeat; 
+    background-position:right;
+    background-size: 16%;
+}
+
+/* Salto de linea dependiend de resolución */
+@media (max-height: 870px) {
+    .row-top {
+        margin-bottom: -12px;
+    }   
+    .row-bot {
+        margin-top: -12px;
+    }     
+}

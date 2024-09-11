@@ -1,0 +1,27 @@
+.foto-perfil{
+    height: 40px !important; 
+    width: 40px !important; 
+    border-radius: 50% !important;  
+}
+
+.verde-invertec {
+    color: rgb(24,104,53);
+}
+
+.card-cumples{
+    background-image: url('https://dxcgedrrxtox6.cloudfront.net/packs/media/images/portal/cumpleanos-64ffb1038da574a08ded97b91f24eb20.svg'); 
+    background-repeat: no-repeat; 
+    background-position:right;
+}
+
+@media (max-height: 870px) {
+    #carouselCumplesAlto {
+        display: none;
+    }    
+}
+
+@media (min-height: 870px) {
+    #carouselCumplesBajo {
+        display: none;
+    }    
+}

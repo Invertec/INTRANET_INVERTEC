@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(236,240,245);
+}
+
+.carousel img {
+    height: 300px;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.carousel-control-prev {
+    margin-left: -6vw;
+}
+  
+.carousel-control-next {
+    margin-right: -6vw;
+}
+
+.owl-carousel .owl-item {
+    display: flex;
+    justify-content: center;
+}
+  
+.owl-carousel .owl-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="16px"]::before {
+    content: '16';
+    font-size: 16px !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="21px"]::before {
+    content: '21';
+    font-size: 21px !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="26px"]::before {
+    content: '26';
+    font-size: 26px !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="31px"]::before {
+    content: '31';
+    font-size: 31px !important;
+}
+
+.ql-picker-label[data-value="16px"]::before { 
+    content: '16' !important; 
+}
+.ql-picker-label[data-value="21px"]::before { 
+    content: '21' !important; 
+}
+.ql-picker-label[data-value="26px"]::before { 
+    content: '26' !important; 
+}
+.ql-picker-label[data-value="31px"]::before { 
+    content: '31' !important; 
+}
